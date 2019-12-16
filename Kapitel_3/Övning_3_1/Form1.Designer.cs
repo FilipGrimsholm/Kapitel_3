@@ -28,46 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnVäljFärg = new System.Windows.Forms.Button();
+            this.btnBrowserDialog = new System.Windows.Forms.Button();
+            this.btnVäljTeckensnitt = new System.Windows.Forms.Button();
+            this.dlgColor = new System.Windows.Forms.ColorDialog();
+            this.dlgBrowser = new System.Windows.Forms.FolderBrowserDialog();
+            this.dlgFont = new System.Windows.Forms.FontDialog();
             this.SuspendLayout();
             // 
-            // button1
+            // btnVäljFärg
             // 
-            this.button1.Location = new System.Drawing.Point(328, 95);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnVäljFärg.Location = new System.Drawing.Point(322, 122);
+            this.btnVäljFärg.Name = "btnVäljFärg";
+            this.btnVäljFärg.Size = new System.Drawing.Size(103, 23);
+            this.btnVäljFärg.TabIndex = 0;
+            this.btnVäljFärg.Text = "Välj en färg";
+            this.btnVäljFärg.UseVisualStyleBackColor = true;
+            this.btnVäljFärg.Click += new System.EventHandler(this.btnVäljFärg_Click);
             // 
-            // button2
+            // btnBrowserDialog
             // 
-            this.button2.Location = new System.Drawing.Point(328, 125);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBrowserDialog.Location = new System.Drawing.Point(322, 152);
+            this.btnBrowserDialog.Name = "btnBrowserDialog";
+            this.btnBrowserDialog.Size = new System.Drawing.Size(103, 23);
+            this.btnBrowserDialog.TabIndex = 1;
+            this.btnBrowserDialog.Text = "Välj mapp";
+            this.btnBrowserDialog.UseVisualStyleBackColor = true;
+            this.btnBrowserDialog.Click += new System.EventHandler(this.btnBrowserDialog_Click);
             // 
-            // button3
+            // btnVäljTeckensnitt
             // 
-            this.button3.Location = new System.Drawing.Point(328, 154);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnVäljTeckensnitt.Location = new System.Drawing.Point(322, 181);
+            this.btnVäljTeckensnitt.Name = "btnVäljTeckensnitt";
+            this.btnVäljTeckensnitt.Size = new System.Drawing.Size(103, 23);
+            this.btnVäljTeckensnitt.TabIndex = 2;
+            this.btnVäljTeckensnitt.Text = "Välj teckensnitt";
+            this.btnVäljTeckensnitt.UseVisualStyleBackColor = true;
+            this.btnVäljTeckensnitt.Click += new System.EventHandler(this.btnVäljTeckensnitt_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnVäljTeckensnitt);
+            this.Controls.Add(this.btnBrowserDialog);
+            this.Controls.Add(this.btnVäljFärg);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -76,9 +82,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnVäljFärg;
+        private System.Windows.Forms.Button btnBrowserDialog;
+        private System.Windows.Forms.Button btnVäljTeckensnitt;
+        private System.Windows.Forms.ColorDialog dlgColor;
+        private System.Windows.Forms.FolderBrowserDialog dlgBrowser;
+        private System.Windows.Forms.FontDialog dlgFont;
     }
 }
 
