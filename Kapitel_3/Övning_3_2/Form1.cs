@@ -64,14 +64,39 @@ namespace Övning_3_2
             {
                 lblTruth.Visible = true;
                 revealTheTruthToolStripMenuItem.Text = "Hide the truth";
+                revealTheTruthToolStripMenuItem1.Text = "Hide the truth";
                 change = 1;
             }
             else
             {
                 lblTruth.Visible = false;
                 revealTheTruthToolStripMenuItem.Text = "Reveal the truth";
+                revealTheTruthToolStripMenuItem1.Text = "Reveal the truth";
                 change = 0;
             }
+        }
+
+        private void RevealTheTruthToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (change == 0)
+            {
+                lblTruth.Visible = true;
+                revealTheTruthToolStripMenuItem.Text = "Hide the truth";
+                revealTheTruthToolStripMenuItem1.Text = "Hide the truth";
+                change = 1;
+            }
+            else
+            {
+                lblTruth.Visible = false;
+                revealTheTruthToolStripMenuItem.Text = "Reveal the truth";
+                revealTheTruthToolStripMenuItem1.Text = "Reveal the truth";
+                change = 0;
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
