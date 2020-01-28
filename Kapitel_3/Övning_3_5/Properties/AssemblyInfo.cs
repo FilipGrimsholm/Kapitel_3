@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Övning_3_7")]
+[assembly: AssemblyTitle("Övning_3_5")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Övning_3_7")]
+[assembly: AssemblyProduct("Övning_3_5")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("517d8894-ce98-415c-a058-0c82856ad1e5")]
+[assembly: Guid("34e7a173-7edc-4002-921a-63580ff10bc6")]
 
 // Version information for an assembly consists of the following four values:
 //

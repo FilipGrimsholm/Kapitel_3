@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{517D8894-CE98-415C-A058-0C82856AD1E5}</ProjectGuid>
+    <ProjectGuid>{34E7A173-7EDC-4002-921A-63580FF10BC6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Övning_3_7</RootNamespace>
-    <AssemblyName>Övning_3_7</AssemblyName>
+    <RootNamespace>Övning_3_5</RootNamespace>
+    <AssemblyName>Övning_3_5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -59,42 +59,49 @@ namespace Övning_3_2
 
         private void revealTheTruthToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             if (change == 0)
             {
                 lblTruth.Visible = true;
                 revealTheTruthToolStripMenuItem.Text = "Hide the truth";
-                revealTheTruthToolStripMenuItem1.Text = "Hide the truth";
                 change = 1;
             }
             else
             {
                 lblTruth.Visible = false;
                 revealTheTruthToolStripMenuItem.Text = "Reveal the truth";
-                revealTheTruthToolStripMenuItem1.Text = "Reveal the truth";
-                change = 0;
-            }
-        }
-
-        private void RevealTheTruthToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            if (change == 0)
-            {
-                lblTruth.Visible = true;
-                revealTheTruthToolStripMenuItem.Text = "Hide the truth";
-                revealTheTruthToolStripMenuItem1.Text = "Hide the truth";
-                change = 1;
-            }
-            else
-            {
-                lblTruth.Visible = false;
-                revealTheTruthToolStripMenuItem.Text = "Reveal the truth";
-                revealTheTruthToolStripMenuItem1.Text = "Reveal the truth";
                 change = 0;
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (sender is Button)
+            {
+                //this.Controls.Remove((Button)sender);
+                Button b = (Button)sender;
+                Button bb = sender as Button;
+            }          
+            
+            Contextmenustrip1.SourceControl.Visible = false;
+            
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Contextmenustrip1_Opening(object sender, CancelEventArgs e)
         {
 
         }

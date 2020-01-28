@@ -117,20 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="rtbxText.Text" xml:space="preserve">
-    <value>Illiaden
-Sjung o gudinna om vreden, som brann hos peliden Akilles
-Olycksdiger till tusende kval för Akajernas söner
-Och som till Hades en mängd av de tappra krigares själar störtade ned
-Men lät dem själva ligga på marken för hundar och fåglar till rov
-Zeus vilja var det som skedde, allt från den stund de började först sig söndra i tvedräkt
-Skarornas konung, Atreus son, och den ädle Akilles.
-</value>
-  </data>
-  <metadata name="fontdlgTeckensnitt.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="fontDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="colordlgText.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>170, 17</value>
-  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Illadien
+Sjung o Gudinna om vreden, som brann hos Peliden Akilles
+Olycksdiger till tusende kval för Akajernas söner
+Och som lät Hades en mängd av de tappra krigares själar störtade ner
+Men lät dem själva ligga på marken för hundar och fåglar till rov.
+Zeus vilja var det som skedde, allt från den stund de började först sig söndra i tvedräkt
+Skarornas konung, Atreus son, och den ädle Akilles. </value>
+  </data>
 </root>
